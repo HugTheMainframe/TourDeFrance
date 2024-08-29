@@ -27,6 +27,8 @@ public class Statistics {
             namesAndTeamMap.get(info.getTeam()).add(info.getName());
         }
 
+
+
         return namesAndTeamMap;
     }
 

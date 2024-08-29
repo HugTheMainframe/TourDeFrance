@@ -11,7 +11,7 @@ public class Statistics {
     public Set<String> getTeam(){
         Set<String> team = new HashSet<>();
         for(Cyclist info : list){
-            team.addAll(Set.of(info.getTeam()));
+            team.add(info.getTeam());
         }
         return team;
     }
